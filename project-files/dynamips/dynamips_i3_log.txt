@@ -1,0 +1,38 @@
+Jan 15 19:50:02.619 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 15 19:50:02.620 HYPERVISOR: Started on IP = 192.168.154.1, TCP port = 59697.
+Jan 15 19:50:03.085 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 15 19:50:03.085 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips 
+Jan 15 19:50:03.085 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips
+Jan 15 19:50:03.086 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\d52dfb38-f2cf-4508-b150-46788b5a8245 
+Jan 15 19:50:03.086 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\d52dfb38-f2cf-4508-b150-46788b5a8245
+Jan 15 19:50:03.086 HYPERVISOR: exec_cmd: vm create Nastavnici 3 c7200 
+Jan 15 19:50:03.088 VM: VM Nastavnici created.
+Jan 15 19:50:03.088 HYPERVISOR: exec_cmd: vm set_con_tcp_port Nastavnici 5002 
+Jan 15 19:50:03.088 HYPERVISOR: exec_cmd: c7200 get_mac_addr Nastavnici 
+Jan 15 19:50:03.088 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.088 HYPERVISOR: exec_cmd: vm slot_add_binding Nastavnici 0 0 C7200-IO-FE 
+Jan 15 19:50:03.089 HYPERVISOR: exec_cmd: vm set_disk0 Nastavnici 0 
+Jan 15 19:50:03.089 HYPERVISOR: exec_cmd: vm set_exec_area Nastavnici 64 
+Jan 15 19:50:03.090 HYPERVISOR: exec_cmd: vm set_ios Nastavnici C:/Users/Milos/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+Jan 15 19:50:03.090 HYPERVISOR: exec_cmd: c7200 set_mac_addr Nastavnici ca03.2bb4.0000 
+Jan 15 19:50:03.091 HYPERVISOR: exec_cmd: vm set_nvram Nastavnici 512 
+Jan 15 19:50:03.091 HYPERVISOR: exec_cmd: vm set_ram Nastavnici 512 
+Jan 15 19:50:03.091 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.091 HYPERVISOR: exec_cmd: vm slot_remove_binding Nastavnici 0 0 
+Jan 15 19:50:03.092 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.092 HYPERVISOR: exec_cmd: vm slot_add_binding Nastavnici 0 0 C7200-IO-2FE 
+Jan 15 19:50:03.092 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.092 HYPERVISOR: exec_cmd: vm slot_add_binding Nastavnici 1 0 PA-FE-TX 
+Jan 15 19:50:03.093 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.093 HYPERVISOR: exec_cmd: vm slot_add_binding Nastavnici 2 0 PA-4T+ 
+Jan 15 19:50:03.093 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:03.093 HYPERVISOR: exec_cmd: vm slot_add_binding Nastavnici 3 0 PA-A1 
+Jan 15 19:50:06.491 HYPERVISOR: exec_cmd: nio create_udp udp-aadd38ce-7b04-4e51-b9be-d6d650e72808 10004 127.0.0.1 10005 
+Jan 15 19:50:07.075 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nastavnici 0 0 udp-aadd38ce-7b04-4e51-b9be-d6d650e72808 
+Jan 15 19:50:07.075 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:08.381 HYPERVISOR: exec_cmd: nio create_udp udp-5d2d0818-c798-4a7c-917d-ab7d4d4b370a 10020 127.0.0.1 10021 
+Jan 15 19:50:08.384 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nastavnici 0 1 udp-5d2d0818-c798-4a7c-917d-ab7d4d4b370a 
+Jan 15 19:50:08.385 HYPERVISOR: exec_cmd: vm get_status Nastavnici 
+Jan 15 19:50:08.547 HYPERVISOR: exec_cmd: nio create_udp udp-831230a2-1874-4f38-9a64-f538985434e8 10030 127.0.0.1 10031 
+Jan 15 19:50:08.550 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Nastavnici 1 0 udp-831230a2-1874-4f38-9a64-f538985434e8 
+Jan 15 19:50:08.550 HYPERVISOR: exec_cmd: vm get_status Nastavnici 

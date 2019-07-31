@@ -1,0 +1,12 @@
+Jan 15 19:50:05.355 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 15 19:50:05.356 HYPERVISOR: Started on IP = 192.168.154.1, TCP port = 59714.
+Jan 15 19:50:05.825 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 15 19:50:05.825 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips 
+Jan 15 19:50:05.825 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips
+Jan 15 19:50:05.826 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Jan 15 19:50:08.518 HYPERVISOR: exec_cmd: nio create_udp udp-92ef0492-554f-41fc-9151-50bf440c8eee 10028 192.168.154.1 10029 
+Jan 15 19:50:08.519 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-92ef0492-554f-41fc-9151-50bf440c8eee 
+Jan 15 19:50:08.539 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-92ef0492-554f-41fc-9151-50bf440c8eee 1 
+Jan 15 19:50:08.806 HYPERVISOR: exec_cmd: nio create_udp udp-427e2b50-7da5-4570-b6b9-12e3abdd5a45 10043 192.168.154.1 10042 
+Jan 15 19:50:08.806 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-427e2b50-7da5-4570-b6b9-12e3abdd5a45 
+Jan 15 19:50:08.810 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-427e2b50-7da5-4570-b6b9-12e3abdd5a45 1 

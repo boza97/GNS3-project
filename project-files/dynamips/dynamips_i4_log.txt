@@ -1,0 +1,38 @@
+Jan 15 19:50:03.173 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 15 19:50:03.174 HYPERVISOR: Started on IP = 192.168.154.1, TCP port = 59700.
+Jan 15 19:50:03.641 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 15 19:50:03.641 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips 
+Jan 15 19:50:03.641 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips
+Jan 15 19:50:03.642 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\6d5bcdd3-fc63-4f6c-b56d-23cf771bb6ee 
+Jan 15 19:50:03.642 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\6d5bcdd3-fc63-4f6c-b56d-23cf771bb6ee
+Jan 15 19:50:03.642 HYPERVISOR: exec_cmd: vm create Administracija 4 c7200 
+Jan 15 19:50:03.643 VM: VM Administracija created.
+Jan 15 19:50:03.643 HYPERVISOR: exec_cmd: vm set_con_tcp_port Administracija 5003 
+Jan 15 19:50:03.643 HYPERVISOR: exec_cmd: c7200 get_mac_addr Administracija 
+Jan 15 19:50:03.643 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.645 HYPERVISOR: exec_cmd: vm slot_add_binding Administracija 0 0 C7200-IO-FE 
+Jan 15 19:50:03.645 HYPERVISOR: exec_cmd: vm set_disk0 Administracija 0 
+Jan 15 19:50:03.645 HYPERVISOR: exec_cmd: vm set_exec_area Administracija 64 
+Jan 15 19:50:03.645 HYPERVISOR: exec_cmd: vm set_ios Administracija C:/Users/Milos/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+Jan 15 19:50:03.645 HYPERVISOR: exec_cmd: c7200 set_mac_addr Administracija ca04.1fac.0000 
+Jan 15 19:50:03.646 HYPERVISOR: exec_cmd: vm set_nvram Administracija 512 
+Jan 15 19:50:03.646 HYPERVISOR: exec_cmd: vm set_ram Administracija 512 
+Jan 15 19:50:03.646 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.646 HYPERVISOR: exec_cmd: vm slot_remove_binding Administracija 0 0 
+Jan 15 19:50:03.647 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.647 HYPERVISOR: exec_cmd: vm slot_add_binding Administracija 0 0 C7200-IO-2FE 
+Jan 15 19:50:03.647 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.647 HYPERVISOR: exec_cmd: vm slot_add_binding Administracija 1 0 PA-A1 
+Jan 15 19:50:03.648 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.648 HYPERVISOR: exec_cmd: vm slot_add_binding Administracija 2 0 PA-4T+ 
+Jan 15 19:50:03.648 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:03.648 HYPERVISOR: exec_cmd: vm slot_add_binding Administracija 3 0 PA-FE-TX 
+Jan 15 19:50:07.709 HYPERVISOR: exec_cmd: nio create_udp udp-a5b84b00-6e52-4cdf-9935-f4d418d4ecc3 10010 127.0.0.1 10011 
+Jan 15 19:50:08.281 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Administracija 0 0 udp-a5b84b00-6e52-4cdf-9935-f4d418d4ecc3 
+Jan 15 19:50:08.281 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:08.393 HYPERVISOR: exec_cmd: nio create_udp udp-3716b974-00c4-446e-8b06-2c4d4237db87 10022 127.0.0.1 10023 
+Jan 15 19:50:08.399 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Administracija 0 1 udp-3716b974-00c4-446e-8b06-2c4d4237db87 
+Jan 15 19:50:08.399 HYPERVISOR: exec_cmd: vm get_status Administracija 
+Jan 15 19:50:08.659 HYPERVISOR: exec_cmd: nio create_udp udp-44fbb56f-dff7-4d93-aa46-7f0b789821db 10038 127.0.0.1 10039 
+Jan 15 19:50:08.662 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Administracija 3 0 udp-44fbb56f-dff7-4d93-aa46-7f0b789821db 
+Jan 15 19:50:08.663 HYPERVISOR: exec_cmd: vm get_status Administracija 

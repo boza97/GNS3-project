@@ -1,0 +1,36 @@
+Jan 15 19:50:02.064 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 15 19:50:02.065 HYPERVISOR: Started on IP = 192.168.154.1, TCP port = 59694.
+Jan 15 19:50:02.532 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 15 19:50:02.532 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips 
+Jan 15 19:50:02.532 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips
+Jan 15 19:50:02.533 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\66f351e5-0ae4-4647-a612-d8527250f999 
+Jan 15 19:50:02.533 GENERAL: working_dir=C:\Users\Milos\GNS3\projects\domaciRMT\project-files\dynamips\66f351e5-0ae4-4647-a612-d8527250f999
+Jan 15 19:50:02.533 HYPERVISOR: exec_cmd: vm create Studenti 2 c7200 
+Jan 15 19:50:02.534 VM: VM Studenti created.
+Jan 15 19:50:02.535 HYPERVISOR: exec_cmd: vm set_con_tcp_port Studenti 5001 
+Jan 15 19:50:02.535 HYPERVISOR: exec_cmd: c7200 get_mac_addr Studenti 
+Jan 15 19:50:02.535 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:02.535 HYPERVISOR: exec_cmd: vm slot_add_binding Studenti 0 0 C7200-IO-FE 
+Jan 15 19:50:02.536 HYPERVISOR: exec_cmd: vm set_disk0 Studenti 0 
+Jan 15 19:50:02.536 HYPERVISOR: exec_cmd: vm set_exec_area Studenti 64 
+Jan 15 19:50:02.537 HYPERVISOR: exec_cmd: vm set_ios Studenti C:/Users/Milos/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+Jan 15 19:50:02.537 HYPERVISOR: exec_cmd: c7200 set_mac_addr Studenti ca02.0ae4.0000 
+Jan 15 19:50:02.537 HYPERVISOR: exec_cmd: vm set_nvram Studenti 512 
+Jan 15 19:50:02.538 HYPERVISOR: exec_cmd: vm set_ram Studenti 512 
+Jan 15 19:50:02.538 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:02.538 HYPERVISOR: exec_cmd: vm slot_remove_binding Studenti 0 0 
+Jan 15 19:50:02.538 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:02.539 HYPERVISOR: exec_cmd: vm slot_add_binding Studenti 0 0 C7200-IO-2FE 
+Jan 15 19:50:02.539 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:02.539 HYPERVISOR: exec_cmd: vm slot_add_binding Studenti 1 0 PA-A1 
+Jan 15 19:50:02.539 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:02.539 HYPERVISOR: exec_cmd: vm slot_add_binding Studenti 2 0 PA-4T+ 
+Jan 15 19:50:07.118 HYPERVISOR: exec_cmd: nio create_udp udp-14f9dc3a-6649-43eb-9067-fb840b26e756 10008 127.0.0.1 10009 
+Jan 15 19:50:07.701 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Studenti 0 0 udp-14f9dc3a-6649-43eb-9067-fb840b26e756 
+Jan 15 19:50:07.701 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:08.336 HYPERVISOR: exec_cmd: nio create_udp udp-364d28cd-8b3c-407a-b8cd-891ac399fa74 10016 127.0.0.1 10017 
+Jan 15 19:50:08.339 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Studenti 2 0 udp-364d28cd-8b3c-407a-b8cd-891ac399fa74 
+Jan 15 19:50:08.339 HYPERVISOR: exec_cmd: vm get_status Studenti 
+Jan 15 19:50:08.610 HYPERVISOR: exec_cmd: nio create_udp udp-3493ee13-7570-4268-acbe-b5a6a501a7e5 10034 127.0.0.1 10035 
+Jan 15 19:50:08.613 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Studenti 0 1 udp-3493ee13-7570-4268-acbe-b5a6a501a7e5 
+Jan 15 19:50:08.613 HYPERVISOR: exec_cmd: vm get_status Studenti 
